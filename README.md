@@ -16,7 +16,7 @@ The CAD modelling can be seen below:
   <img src="Images/CAD_Modelling_with_Dimentions_page-0001.jpg" alt="CAD Modelling of the Robot Chassis" width="400">
 </div>
 <div align="center">
-CAD Modelling of the Robot Chassis and Dimensions of the Components
+**CAD Modelling of the Robot Chassis and Dimensions of the Components**
 </div>
 
 Once the Robot chassis is fabricated, I and my team have made the necessary connections as shown in the image below : 
@@ -24,7 +24,7 @@ Once the Robot chassis is fabricated, I and my team have made the necessary conn
 <img src="Images/Circuit_Connection_Image_page-0001.jpg" alt="Circuit Connect on Robot Chassis" width="400">
 </div>
 <div align="center">
-Circuit Connect on Robot Chassis
+**Circuit Connect on Robot Chassis**
 </div>
 We have used the following components :
 
@@ -52,7 +52,7 @@ We have used the following components :
 <img src="Images/Robot_Pic2.jpg" alt="Top View Connection of Circuit as per Circuit connection image(Note: A peakhole has been made for the camera lens) " width="400">
 </div>
 <div align="center">
-Front and Top View Connection of Circuit as per Circuit connection image(Note: A peakhole has been made for the camera lens)
+**Front and Top View Connection of Circuit as per Circuit connection image(Note: A peakhole has been made for the camera lens)**
 </div>
 
 
