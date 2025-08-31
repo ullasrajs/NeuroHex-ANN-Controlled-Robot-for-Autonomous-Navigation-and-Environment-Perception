@@ -27,6 +27,7 @@ Once the Robot chassis is fabricated, I and my team have made the necessary conn
 <b>Circuit Connect on Robot Chassis</b>
 </div>
 
+
 We have used the following components :
 
 1. Raspberry Pi 3B+ and a 16GB MicroSD card as OS for the same.
@@ -59,6 +60,17 @@ We have used the following components :
 
 ### Software Setup 
 1. Raspberry Pi's OS :
-   The OS used for the entire project was 32Bit OS Debian Bookworm with Desktop. The OS is loaded in the SD card which was a 16GB Samsung MicroSD card. It was first formatted using [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
+   The OS used for the entire project was 32Bit OS Debian Bookworm with Desktop. The OS is loaded in the SD card which was a 16GB Samsung MicroSD card. It was first formatted using [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) You can dowanload the software based on your OS used in PC.
+   <div align="center">
+<img src="Images/SD_card_formatted.jpg" alt="" width="400">
+</div>
+<div align="center">
+<b>SD card formatted </b>
+</div>                 
+    Once formating the SD card is done, the MicroSD card is loaded with ISO image. It can be done easily using [Raspberry Pi Imager (https://www.raspberrypi.com/software/).
+    jk
+    
+    
+   
 
 
