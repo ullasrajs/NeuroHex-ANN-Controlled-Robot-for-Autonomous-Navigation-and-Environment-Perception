@@ -20,3 +20,14 @@ Once the Robot chassis is fabricated, I and my team have built the necessary con
 <div align="center">
 <img src="Images/Circuit_Connection_Image_page-0001.jpg" alt="Circuit Connect on Robot Chassis" width="400">
 </div>
+We have used the following components : 
+1. Raspberry Pi 3B+ and a 16GB MicroSD card as OS for the same.
+2. 4 Ultrasonic Sensors -> 2 each at 2 corners (facing forward and facing diagonal)
+3. 4 10 ROM DC Geared Motors 
+4. 2 2WD DC Motor Drivers L298N
+5. Raspberry Pi Camera Module 3 
+6. Power source for Pi (Phone Power bank)
+7. Wires and Data/Power Cable
+8. LIPO Battery 1.3A 12V (comes along with a charger)
+
+
