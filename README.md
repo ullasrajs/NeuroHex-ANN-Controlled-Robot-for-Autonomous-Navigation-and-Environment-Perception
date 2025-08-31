@@ -3,7 +3,7 @@
 This is my Final year project in my UG from RNSIT, Bangalore. The project is based on implementing Object detection Model on a SBC Raspberry Pi 3B+ and also controlling the robot which is a 6WD Vehicle through real world. The uniqueness of this project is implementing an OBject detection model on Raspberry Pi 3B+ Board which hasn't been tried before.
 This project, NeuroHex, is an autonomous robot that leverages an Artificial Neural Network (ANN) for intelligent navigation and environment perception. Designed to handle complex and uneven terrains, the robot uses a fusion of hardware and software components to perceive its surroundings, detect objects, and navigate autonomously.
 
-## Software and Hardware Setup 
+## Software and Hardware Requirements 
 Both hardware and software requirements are equally essential for reaching the aim of the project. A good hardware is what which is going to drive the necessary tools and applications of software meet the required result metrics.
 
 ### Hardware Setup
@@ -20,7 +20,8 @@ Once the Robot chassis is fabricated, I and my team have made the necessary conn
 <div align="center">
 <img src="Images/Circuit_Connection_Image_page-0001.jpg" alt="Circuit Connect on Robot Chassis" width="400">
 </div>
-We have used the following components : 
+We have used the following components :
+
 1. Raspberry Pi 3B+ and a 16GB MicroSD card as OS for the same.
 
 2. 4 Ultrasonic Sensors -> 2 each at 2 corners (facing forward and facing diagonal)
@@ -35,6 +36,19 @@ We have used the following components :
      
 7. Wires and Data/Power Cable
      
-8. LIPO Battery 1.3A 12V (comes along with a charger)  
+8. LIPO Battery 1.3A 12V (comes along with a charger)
+
+   Once the connection of above components are done. The hardware setup is done and lets move to the software setup. The images of the same can be viewed below:
+<div align="center">
+<img src="Images/Robot_Pic1.jpg" alt="Front View Connection of Circuit as per Circuit connection image(Note: A peakhole has been made for the camera lens) " width="400">
+</div>
+<div align="center">
+<img src="Images/Robot_Pic2.jpg" alt="Top View Connection of Circuit as per Circuit connection image(Note: A peakhole has been made for the camera lens) " width="400">
+</div>
+
+
+### Software Setup 
+1. Raspberry Pi's OS :
+   The OS used for the entire project was 32Bit OS Debian Bookworm with Desktop. The OS is loaded in the SD card which was a 16GB Samsung MicroSD card. It was first formatted using [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
 
 
