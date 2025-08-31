@@ -10,4 +10,4 @@ Both hardware and software requirements are equally essential for reaching the a
 First, we are going to setup our hardware which is foundation. The hardware setup includes both mechanical designing of project and also electronic setup. The mechanical design was done using Solidedge Software which is a Mechanical CAD. As the idea was to build a 6WD robot chassis, we created a design aligned with it. The design file was later given to a workshop where it was built by a Fabricator. It was made from Industrial grade steel. The 4 wheels front and back were powered by 10 RPM Geared DC Motor. These motors needed 12V 1.6Amp power. It was provided by a Lipo Battery 12V 1.6A.
 
 The CAD modelling can be seen below: 
-![CAD Modelling of all Robot Chassis](./Images/CAD_Modelling_page-0001.jpg)
+<img src="./assets/block_diagram.png" alt="Project Block Diagram" width="500">
