@@ -11,4 +11,7 @@ First, we are going to setup our hardware which is foundation. The hardware setu
 
 The CAD modelling can be seen below: 
 
-<img src="Images/CAD_Modelling_page-0001.jpg" alt="CAD modeeling of Robot Chassis" width="400">
+<div align="center">
+  <img src="./Images/CAD_Modelling_page-0001.jpg" alt="CAD Modelling of the Robot Chassis" width="400">
+  <img src="Images/CAD_Modelling_with_Dimentions_page-0001.jpg" alt="CAD model with Dimensions" width="400">
+</div>
