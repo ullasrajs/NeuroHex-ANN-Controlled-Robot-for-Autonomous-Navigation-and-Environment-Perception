@@ -26,6 +26,7 @@ Once the Robot chassis is fabricated, I and my team have made the necessary conn
 <div align="center">
 <b>Circuit Connect on Robot Chassis</b>
 </div>
+
 We have used the following components :
 
 1. Raspberry Pi 3B+ and a 16GB MicroSD card as OS for the same.
