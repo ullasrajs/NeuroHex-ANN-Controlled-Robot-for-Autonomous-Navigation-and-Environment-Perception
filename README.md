@@ -76,7 +76,7 @@ Once formating the SD card is done, the MicroSD card is loaded with ISO image. I
 <b>Raspberry Pi Imager UI </b>
 </div> 
 
-There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Now you can confiure the raspberry pi. 
+There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Connect the Pi board to the peripherals such as *Desktop , Mouse and Keyboard* Now you can confiure the raspberry pi. Give a custom **Username** and **Password**. Configure WLAN (WIFI) with a known network so that it connects automatically when booted ON. This is very essential as this the way we will be going to work in further stages by enabling SSH. In services enable **SSH** and **VNC**. Once it gets connected to the wifi you can unplug the peripherals and can use remotely using any Third Party Softwares -> CLI(Putty, Remote Resktop Connection by Microsoft, bash/Powershell/Command Prompt) or GUI Desktop (RealVNC, VNC Server or anyother softwares). 
 
 <div align="center">
 <img src="Images/Configuring_Raspberrpi.jpg" alt="" width="400">
