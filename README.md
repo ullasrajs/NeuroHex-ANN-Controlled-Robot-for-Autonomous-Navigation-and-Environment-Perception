@@ -61,7 +61,7 @@ We have used the following components :
 ### Software Setup 
 1. Raspberry Pi's OS :
    The OS used for the entire project was 32Bit OS Debian Bookworm with Desktop. The OS is loaded in the SD card which was a 16GB Samsung MicroSD card. It was first formatted using [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) You can dowanload the software based on your OS used in PC.
-   <div align="center">
+<div align="center">
 <img src="Images/SD_card_formatted.jpg" alt="" width="400">
 </div>
 <div align="center">
