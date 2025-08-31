@@ -67,8 +67,10 @@ We have used the following components :
 <div align="center">
 <b>SD card formatted </b>
 </div>                 
+
     Once formating the SD card is done, the MicroSD card is loaded with ISO image. It can be done easily using 
-    [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and choosing the OS. 
+    [RaspberryPiImager](https://www.raspberrypi.com/software/) and choosing the OS. 
+    f
     
     
     
