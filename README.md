@@ -68,7 +68,9 @@ We have used the following components :
 <b>SD card formatted </b>
 </div>                 
 
-Once formating the SD card is done, the MicroSD card is loaded with ISO image. It can be done easily using [RaspberryPiImager](https://www.raspberrypi.com/software/) and choosing the OS. 
+Once formating the SD card is done, the MicroSD card is loaded with ISO image. It can be done easily using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and choosing the required OS. The ISO image will be loaded onto MicroSD card and then it is inserted into the Pi Board.
+There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Now you can confiure the raspberry pi.
+
     
     
     
