@@ -13,9 +13,14 @@ The CAD modelling can be seen below:
 
 <div align="center">
   <img src="./Images/CAD_Modelling_page-0001.jpg" alt="CAD Modelling of the Robot Chassis" width="400">
-  <img src="Images/CAD_Modelling_with_Dimentions_page-0001.jpg" alt="CAD model with Dimensions" width="400">
+  <img src="Images/CAD_Modelling_with_Dimentions_page-0001.jpg" alt="CAD Modelling of the Robot Chassis" width="400">
 </div>
-
+<div align="center">
+CAD Modelling of the Robot Chassis
+</div>
+<div align="center">
+CAD Modelling of the Robot Chassis
+</div>
 Once the Robot chassis is fabricated, I and my team have made the necessary connections as shown in the image below : 
 <div align="center">
 <img src="Images/Circuit_Connection_Image_page-0001.jpg" alt="Circuit Connect on Robot Chassis" width="400">
