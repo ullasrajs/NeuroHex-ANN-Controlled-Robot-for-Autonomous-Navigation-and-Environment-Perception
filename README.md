@@ -127,6 +127,22 @@ Verify that you have downloadeded the model file and object list.
 
 Once done with downloading the softwares, my team have coded a program for Object Detection. It can be accessed from [object_detection_code.py](Code/object_detection_code.py)
     
+So in this code we have created a Webapp instance using *Flask*, and the output can be seen in :
+    
+    http://<your-pi-ip>:5000/video_feed
+    #http://192.168.1.42:5000/video_feed , run cmd : hostname -I to get IP addr
+
+The video data is configured by Picamera2 library to required colour format and resolution, the variable name is also "camera" in the code. 
+The model and labelmap files are loaded into the code and given to the tflite-runtime interpreter. The video image frames are taken as input and boxes are drawn around objects and the labels are alloted with the confidence level from 0 to 1.
+
+The output feed can be accessed if you are in the common shared network by the web interface :
+
+    http://192.168.1.42:5000/video_feed
+
+You can stop the program by killing the process **Ctrl + C** or **Ctrl + Z**.
+
+The navigation of the robot is also done using a Python3 library *IntraSOm*
+
 
 
 
