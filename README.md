@@ -58,7 +58,7 @@ We have used the following components :
 </div>
 
 
-### Software Setup 
+### Software Setup and Actual Working in Realtime
 1. Raspberry Pi's OS :
    The OS used for the entire project was 32Bit OS Debian Bookworm with Desktop. The OS is loaded in the SD card which was a 16GB Samsung MicroSD card. It was first formatted using [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) You can dowanload the software based on your OS used in PC.
 <div align="center">
@@ -89,6 +89,8 @@ There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Connec
 </div>  
 
     
+2. Installing packages and Pre-trainned DNN Model:
+   
 Once configuring the Pi is done and you have connected through RealVNC **ssh pi@<IP_ADDRESS>**
 , you can download the packages required for the project:
 
@@ -101,7 +103,8 @@ Once configuring the Pi is done and you have connected through RealVNC **ssh pi@
 
 
 
-*First we tried to run yolov5n modelon Raspberrpi3B+ but it didn't run as it's not feasible to run a high model on low computational power device.*
+*First we tried to run yolov5n model on Raspberrpi3B+ but it didn't run as it's not feasible to run a high model on low computational power device.*
+
 Later we shitched to more optimized model for proper working of **Object detection** on Pi.
 Install the interpreter tool which is Tensorflow Lite version of actual TensorFlow, but as TF whole library can't run on Pi board we use the lite version.
 
@@ -125,6 +128,8 @@ Verify that you have downloadeded the model file and object list.
 
     ls /home/pi/object_detection/
 
+3. Programming the object detection code and it's working :
+   
 Once done with downloading the softwares, my team have coded a program for Object Detection. It can be accessed from [object_detection_code.py](Code/object_detection_code.py)
     
 So in this code we have created a Webapp instance using *Flask*, and the output can be seen in :
@@ -140,8 +145,31 @@ The output feed can be accessed if you are in the common shared network by the w
     http://192.168.1.42:5000/video_feed
 
 You can stop the program by killing the process **Ctrl + C** or **Ctrl + Z**.
+The output generated can be seen below:
 
-The navigation of the robot is also done using a Python3 library *IntraSOm*
+<p align="center">
+  <img src="Images/Object_Detection_1.jpg" width="45%" />
+  <img src="Images/Object_Detection_2.jpg" width="45%" />
+</p>
+<div align="center">
+<b>Object Detection in Real Time</b>
+</div>
+
+
+4. Navigation :
+   
+ The navigation of the robot is also done using a Python3 library *IntraSOm*.
+
+    sudo apt-get update && sudo apt-get upgrade -y
+    sudo apt-get install python3-rpi.gpio -y
+    pip3 install numpy minisom
+
+The code for the navigation can be accessed : [Navigation code](Code/Navigation with SOM and HRSC04 ultrasonic sensors.py).
+
+The program based on the hardware connections done in the [Circuit Diagram](Images/Circuit_Connection_Image_page-0001.jpg) showing 4 HCSR04 Sensors, 2 2WD Motor Drivers connected to the GPIO's of PI Board. Based on the sensor data the Python Library -> IntraSOM creates a Mapping for the robot such that it can traverse in that environment.
+
+
+
 
 
 
