@@ -88,9 +88,22 @@ There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Connec
 <b>Configuring The Pi </b>
 </div>  
     
-    
-    
-    
-   
+Once configuring the Pi is done and you have connected through RealVNC **ssh pi@<IP_ADDRESS>**
+, you can download the packages required for the project:
+
+    sudo apt update && sudo apt upgrade 
+    pip3 install flask
+    pip3 install opencv-python
+    pip3 install opencv-python-headless   # sometimes needed for headless Pi
+    pip3 install numpy
+    pip3 install pillow
+
+
+
+*First we tried to run yolov5n modelon Raspberrpi3B+ but it didn't run as it's not feasible to run a high model on low computational power device.*
+Later we shitched to more optimized model for proper working of **Object detection** on Pi.
+Install the interpreter tool which is Tensorflow Lite version of actual TensorFlow, but as TF whole library can't run on Pi board we use the lite version.
+
+    pip3 install tflite-runtime
 
 
