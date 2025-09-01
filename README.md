@@ -128,6 +128,7 @@ Verify that you have downloadeded the model file and object list.
 
     ls /home/pi/object_detection/
 
+
 3. Programming the object detection code and it's working :
    
 Once done with downloading the softwares, my team have coded a program for Object Detection. It can be accessed from [object_detection_code.py](Code/object_detection_code.py)
