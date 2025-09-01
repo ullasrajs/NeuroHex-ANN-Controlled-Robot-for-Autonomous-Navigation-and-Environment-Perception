@@ -174,6 +174,11 @@ The code for the navigation can be accessed : [Navigation code](Code/Navigation 
 
 The program based on the hardware connections done in the [Circuit Diagram](Images/Circuit_Connection_Image_page-0001.jpg) showing 4 HCSR04 Sensors, 2 2WD Motor Drivers connected to the GPIO's of PI Board. Based on the sensor data the Python Library -> IntraSOM creates a Mapping for the robot such that it can traverse in that environment.
 
+## Conclusion from the Project:
+
+1. As the academic project work had to be carried out in less than 3 months, given the time constraint we did the best of we could. If a good amount of time was alloted to the project we could have build a new model rather than the classical rover type robot with wheels, which isn't beneficial for climbing rough terrains or even steps on land. A better idea would be limbs such as *Hexapod*. And moving to a 3D Printing using light weighted materials rather than heavy metals.
+2. Secondly, the hardware as we had limited resources such as a Pi wouldn't be enough to capture and detect objects properly, using a better customized Board for the same would be great or as I went through few of Object Detection Projects over Internet which preferred to use AI Accelerators such as Google TPU Core for improving the computational power.
+3. As I mentioned that there was a time constraint, we could also make use of good robotics softwares such as ROS2 for the project’s better scalability, modularity, and real-time integration of perception, planning, and control.
 
 
 
