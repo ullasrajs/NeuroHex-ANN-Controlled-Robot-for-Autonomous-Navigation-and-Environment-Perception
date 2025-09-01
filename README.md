@@ -87,6 +87,7 @@ There is nothing as Boot loader as the Pi's ROM is directly loaded an OS. Connec
 <div align="center">
 <b>Configuring The Pi </b>
 </div>  
+
     
 Once configuring the Pi is done and you have connected through RealVNC **ssh pi@<IP_ADDRESS>**
 , you can download the packages required for the project:
@@ -106,4 +107,29 @@ Install the interpreter tool which is Tensorflow Lite version of actual TensorFl
 
     pip3 install tflite-runtime
 
+Install the camera library for operating with Pi Camera Module :
+
+    sudo apt install -y python3-picamera2
+
+You can check the camera functionality by sourcing this line in terminal :
+
+    libcamera-still -o test_image.jpg
+
+Once the hardware functioning is great and all software requirement is met, you can deploy a Model on Pi to detect object. So in this project we have used SSD MobileNet Version 2:
+
+    wget https://github.com/PINTO0309/TensorflowLite-bin/raw/main/models/mobilenet_ssd_v2_coco_quant_postprocess.tflite -O /home/pi/object_detection/detect.tflite #Copying the model file onto your local PC.
+
+    wget https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/data/mscoco_label_map.pbtxt -O /home/pi/object_detection/labelmap.txt # 1 line Label text.
+
+Verify that you have downloadeded the model file and object list.
+
+    ls /home/pi/object_detection/
+
+Once done with downloading the softwares, my team have coded a program for Object Detection. It can be accessed from [object_detection_code.py](Code/object_detection_code.py)
+    
+
+
+
+
+    
 
